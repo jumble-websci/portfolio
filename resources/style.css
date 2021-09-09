@@ -56,3 +56,91 @@
   margin-top: 7vw;
   text-align: center;
 }
+
+/* ---------Russell's Resume Stuff---------*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+body {
+  font-family: Average; 
+}
+
+h1 {
+  text-align: center; 
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+}
+
+/* For Photo */
+#russellResumePhoto {
+  width: 13em;
+  height: 13em;
+  border-radius: 0.2em;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+/* For Objective Statement */
+#objectiveStatementRussell {
+  display: inline-block;
+  width: 21em;
+}
+
+/*Used here for the section headers*/
+h2 {
+  display: block;
+  margin: 20px 0 5px 0;
+  padding: 0;
+  padding-bottom: 0.1em;
+  font-size: 1.3em;
+  border-bottom: 3px dotted black;
+}
+
+#contactInfo {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+}
+
+#content {
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3em;
+  max-width: 50em;
+}
+
+/*This is for the actual activity/school/whatever that I did and it's dates*/
+p.specific {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 21em;
+}
+
+/*This is for the small text for wordy descriptions*/
+p.tiny {
+  font-size: small;
+  margin-top: 1px;
+  margin-bottom: 4px;
+}
+
+a:link.email {
+  color:black;
+}
+
+a:hover.email {
+  color:blue;
+}
