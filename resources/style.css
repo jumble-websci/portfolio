@@ -84,7 +84,7 @@ h1 {
 }
 
 /* For Objective Statement */
-#objectiveStatementRussell {
+#objectiveStatement {
   display: inline-block;
   width: 21em;
 }
@@ -144,3 +144,46 @@ a:link.email {
 a:hover.email {
   color:blue;
 }
+
+
+/* James' Resume stuff*/
+#statementAndPicture {
+  align-content:center;
+  text-align: center;
+  position: relative;
+}
+
+#statementAndPicture p{
+  display: inline-block;
+  width:21em;
+  margin: 10px auto;
+  position: relative;
+}
+
+#jamesphoto {
+  width: 13em;
+  height: 13em;
+  border-radius: 0.2em;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+.alignleft {
+/*  float:left;*/
+  display: inline-block;
+  list-style: none;
+}
+.alignright {
+  float:right;
+  font-style:italic;
+}
+
+h3 {
+  display: inline-block;
+  margin-bottom:1%;
+}
+
+.nostyle li{
+  list-style: none;
+}
+
