@@ -187,3 +187,22 @@ h3 {
   list-style: none;
 }
 
+/* ---------Vishal's Resume Stuff---------*/
+#VishalPhoto {
+  width: 14em;
+  height: 16em;
+  border-radius: 0.2em;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+#Intro{
+  width:30em;
+  display: inline-block;
+  align-content:center;
+  margin-top: 6em;
+  margin-left: 3em;
+  position:absolute;
+}
+
+
